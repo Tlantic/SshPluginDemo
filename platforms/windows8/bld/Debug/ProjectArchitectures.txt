@@ -1,0 +1,1 @@
+D:\github\tlantic\ScpPLuginDemo\platforms\windows8\CordovaApp.jsproj;neutral
