@@ -5,7 +5,7 @@
     <WindowsUser>viniciusl</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>9DC3FB6019FA92775D3CF03868D8EAE758AE44872DC7BC9EF922E6FBB4FFD452</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>5CCFBCDDAF77B0513B3B97C5873ECCD256D5506B78D6447A90F8E64CCCD3F642</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>com.tlantic.demo.scpapp_0.0.1.0_neutral__dsh9t8a1qg3mw</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>com.tlantic.demo.scpapp_dsh9t8a1qg3mw!com.tlantic.demo.scpapp</RegisteredUserModeAppID>
     <RegisteredPackageID>com.tlantic.demo.scpapp</RegisteredPackageID>
@@ -13,140 +13,140 @@
     <RegisteredVersion>0.0.1.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\github\tlantic\ScpPLuginDemo\platforms\windows8\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-04-09T13:09:03.344</Modified>
+      <Modified>2014-04-09T13:57:07.529</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\github\tlantic\ScpPLuginDemo\platforms\windows8\images\logo.png">
+    <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-03-11T11:30:20.281</Modified>
+      <Modified>2014-04-09T13:40:02.210</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\github\tlantic\ScpPLuginDemo\platforms\windows8\images\smalllogo.png">
+    <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\images\smalllogo.png">
       <PackagePath>images\smalllogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-03-11T11:30:20.283</Modified>
+      <Modified>2014-04-09T13:40:02.210</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\github\tlantic\ScpPLuginDemo\platforms\windows8\images\splashscreen.png">
+    <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\images\splashscreen.png">
       <PackagePath>images\splashscreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-03-11T11:30:20.286</Modified>
+      <Modified>2014-04-09T13:40:02.211</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\github\tlantic\ScpPLuginDemo\platforms\windows8\images\storelogo.png">
+    <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\images\storelogo.png">
       <PackagePath>images\storelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-03-11T11:30:20.288</Modified>
+      <Modified>2014-04-09T13:40:02.212</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\github\tlantic\ScpPLuginDemo\platforms\windows8\www\img\logo.png">
+    <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\www\img\logo.png">
       <PackagePath>www\img\logo.png</PackagePath>
-      <Modified>2014-04-09T13:09:02.523</Modified>
+      <Modified>2014-04-09T13:40:02.234</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\github\tlantic\ScpPLuginDemo\platforms\windows8\www\cordova.js">
+    <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\www\cordova.js">
       <PackagePath>www\cordova.js</PackagePath>
-      <Modified>2014-04-09T13:09:02.541</Modified>
+      <Modified>2014-04-09T13:40:02.232</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\github\tlantic\ScpPLuginDemo\platforms\windows8\www\cordova_plugins.js">
+    <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\www\cordova_plugins.js">
       <PackagePath>www\cordova_plugins.js</PackagePath>
-      <Modified>2014-04-09T13:09:02.726</Modified>
+      <Modified>2014-04-09T13:40:02.232</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\github\tlantic\ScpPLuginDemo\platforms\windows8\www\js\index.js">
+    <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\www\js\index.js">
       <PackagePath>www\js\index.js</PackagePath>
-      <Modified>2014-04-09T13:09:02.530</Modified>
+      <Modified>2014-04-09T13:40:02.235</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\github\tlantic\ScpPLuginDemo\platforms\windows8\www\plugins\com.tlantic.plugins.scp\src\windows8\ScpProxy.js">
+    <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\www\plugins\com.tlantic.plugins.scp\src\windows8\ScpProxy.js">
       <PackagePath>www\plugins\com.tlantic.plugins.scp\src\windows8\ScpProxy.js</PackagePath>
-      <Modified>2014-04-09T13:09:02.725</Modified>
+      <Modified>2014-04-09T13:40:02.235</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\github\tlantic\ScpPLuginDemo\platforms\windows8\www\plugins\com.tlantic.plugins.scp\www\scp.js">
+    <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\www\plugins\com.tlantic.plugins.scp\www\scp.js">
       <PackagePath>www\plugins\com.tlantic.plugins.scp\www\scp.js</PackagePath>
-      <Modified>2014-04-09T13:09:02.724</Modified>
+      <Modified>2014-04-09T13:40:02.236</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\github\tlantic\ScpPLuginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\src\windows8\FileProxy.js">
+    <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\src\windows8\FileProxy.js">
       <PackagePath>www\plugins\org.apache.cordova.file\src\windows8\FileProxy.js</PackagePath>
-      <Modified>2014-04-09T13:09:02.722</Modified>
+      <Modified>2014-04-09T13:40:02.242</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\github\tlantic\ScpPLuginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\DirectoryEntry.js">
+    <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\DirectoryEntry.js">
       <PackagePath>www\plugins\org.apache.cordova.file\www\DirectoryEntry.js</PackagePath>
-      <Modified>2014-04-09T13:09:02.683</Modified>
+      <Modified>2014-04-09T13:40:02.243</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\github\tlantic\ScpPLuginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\DirectoryReader.js">
+    <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\DirectoryReader.js">
       <PackagePath>www\plugins\org.apache.cordova.file\www\DirectoryReader.js</PackagePath>
-      <Modified>2014-04-09T13:09:02.685</Modified>
+      <Modified>2014-04-09T13:40:02.243</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\github\tlantic\ScpPLuginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\Entry.js">
+    <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\Entry.js">
       <PackagePath>www\plugins\org.apache.cordova.file\www\Entry.js</PackagePath>
-      <Modified>2014-04-09T13:09:02.688</Modified>
+      <Modified>2014-04-09T13:40:02.247</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\github\tlantic\ScpPLuginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\File.js">
+    <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\File.js">
       <PackagePath>www\plugins\org.apache.cordova.file\www\File.js</PackagePath>
-      <Modified>2014-04-09T13:09:02.690</Modified>
+      <Modified>2014-04-09T13:40:02.247</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\github\tlantic\ScpPLuginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\FileEntry.js">
+    <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\FileEntry.js">
       <PackagePath>www\plugins\org.apache.cordova.file\www\FileEntry.js</PackagePath>
-      <Modified>2014-04-09T13:09:02.691</Modified>
+      <Modified>2014-04-09T13:40:02.247</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\github\tlantic\ScpPLuginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\FileError.js">
+    <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\FileError.js">
       <PackagePath>www\plugins\org.apache.cordova.file\www\FileError.js</PackagePath>
-      <Modified>2014-04-09T13:09:02.692</Modified>
+      <Modified>2014-04-09T13:40:02.248</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\github\tlantic\ScpPLuginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\FileReader.js">
+    <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\FileReader.js">
       <PackagePath>www\plugins\org.apache.cordova.file\www\FileReader.js</PackagePath>
-      <Modified>2014-04-09T13:09:02.703</Modified>
+      <Modified>2014-04-09T13:40:02.254</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\github\tlantic\ScpPLuginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\FileSystem.js">
+    <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\FileSystem.js">
       <PackagePath>www\plugins\org.apache.cordova.file\www\FileSystem.js</PackagePath>
-      <Modified>2014-04-09T13:09:02.704</Modified>
+      <Modified>2014-04-09T13:40:02.254</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\github\tlantic\ScpPLuginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\FileUploadOptions.js">
+    <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\FileUploadOptions.js">
       <PackagePath>www\plugins\org.apache.cordova.file\www\FileUploadOptions.js</PackagePath>
-      <Modified>2014-04-09T13:09:02.705</Modified>
+      <Modified>2014-04-09T13:40:02.255</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\github\tlantic\ScpPLuginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\FileUploadResult.js">
+    <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\FileUploadResult.js">
       <PackagePath>www\plugins\org.apache.cordova.file\www\FileUploadResult.js</PackagePath>
-      <Modified>2014-04-09T13:09:02.706</Modified>
+      <Modified>2014-04-09T13:40:02.255</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\github\tlantic\ScpPLuginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\FileWriter.js">
+    <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\FileWriter.js">
       <PackagePath>www\plugins\org.apache.cordova.file\www\FileWriter.js</PackagePath>
-      <Modified>2014-04-09T13:09:02.710</Modified>
+      <Modified>2014-04-09T13:40:02.259</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\github\tlantic\ScpPLuginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\Flags.js">
+    <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\Flags.js">
       <PackagePath>www\plugins\org.apache.cordova.file\www\Flags.js</PackagePath>
-      <Modified>2014-04-09T13:09:02.711</Modified>
+      <Modified>2014-04-09T13:40:02.259</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\github\tlantic\ScpPLuginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\LocalFileSystem.js">
+    <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\LocalFileSystem.js">
       <PackagePath>www\plugins\org.apache.cordova.file\www\LocalFileSystem.js</PackagePath>
-      <Modified>2014-04-09T13:09:02.712</Modified>
+      <Modified>2014-04-09T13:40:02.260</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\github\tlantic\ScpPLuginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\Metadata.js">
+    <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\Metadata.js">
       <PackagePath>www\plugins\org.apache.cordova.file\www\Metadata.js</PackagePath>
-      <Modified>2014-04-09T13:09:02.712</Modified>
+      <Modified>2014-04-09T13:40:02.260</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\github\tlantic\ScpPLuginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\ProgressEvent.js">
+    <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\ProgressEvent.js">
       <PackagePath>www\plugins\org.apache.cordova.file\www\ProgressEvent.js</PackagePath>
-      <Modified>2014-04-09T13:09:02.713</Modified>
+      <Modified>2014-04-09T13:40:02.261</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\github\tlantic\ScpPLuginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\requestFileSystem.js">
+    <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\requestFileSystem.js">
       <PackagePath>www\plugins\org.apache.cordova.file\www\requestFileSystem.js</PackagePath>
-      <Modified>2014-04-09T13:09:02.714</Modified>
+      <Modified>2014-04-09T13:40:02.261</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\github\tlantic\ScpPLuginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\resolveLocalFileSystemURI.js">
+    <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\www\resolveLocalFileSystemURI.js">
       <PackagePath>www\plugins\org.apache.cordova.file\www\resolveLocalFileSystemURI.js</PackagePath>
-      <Modified>2014-04-09T13:09:02.714</Modified>
+      <Modified>2014-04-09T13:40:02.262</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\github\tlantic\ScpPLuginDemo\platforms\windows8\www\css\index.css">
+    <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\www\css\index.css">
       <PackagePath>www\css\index.css</PackagePath>
-      <Modified>2014-04-09T13:09:02.522</Modified>
+      <Modified>2014-04-09T13:40:02.233</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\github\tlantic\ScpPLuginDemo\platforms\windows8\www\index.html">
+    <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\www\index.html">
       <PackagePath>www\index.html</PackagePath>
-      <Modified>2014-04-09T13:23:52.715</Modified>
+      <Modified>2014-04-09T14:01:16.936</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\github\tlantic\ScpPLuginDemo\platforms\windows8\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-04-09T13:09:03.191</Modified>
+      <Modified>2014-04-09T13:57:07.392</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

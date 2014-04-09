@@ -1,1 +1,1 @@
-D:\github\tlantic\ScpPLuginDemo\platforms\windows8\CordovaApp.jsproj;neutral
+D:\github\tlantic\ScpPluginDemo\platforms\windows8\CordovaApp.jsproj;neutral

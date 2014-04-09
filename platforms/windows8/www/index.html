@@ -42,7 +42,9 @@
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
-            var file = "myFile.txt";
+            var filename = "myFileDemo.txt",
+                content = "this is the fk content, dude!",
+                localFileUrl;
 
             app.initialize();
 
@@ -50,8 +52,28 @@
                 console.log(d);
             }
 
+            function gotFileWriter(writer) {
+                writer.onwriteend = function () {
+                    console.log('File Generated');
+                };
+
+                writer.onerror = stub;
+
+                writer.write(content);
+                
+                localFileUrl = write.localURL;
+            }
+
+            function gotFileEntry(fileEntry) {
+                fileEntry.createWriter(gotFileWriter, stub);
+            }
+
+            function gotFS(fileSystem) {
+                fileSystem.root.getFile(filename, { create: true }, gotFileEntry, stub);
+            }
+
             function create() {
-                console.log(window.File);
+                window.requestFileSystem(LocalFileSystem.TEMPORARY, 0, gotFS, stub);
             }
 
             function copy() {

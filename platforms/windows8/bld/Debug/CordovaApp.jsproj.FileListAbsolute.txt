@@ -1,10 +1,6 @@
 D:\github\tlantic\ScpPLuginDemo\platforms\windows8\bin\Debug\resources.pri
 D:\github\tlantic\ScpPLuginDemo\platforms\windows8\bin\Debug\AppxManifest.xml
 D:\github\tlantic\ScpPLuginDemo\platforms\windows8\bin\Debug\CordovaApp.build.appxrecipe
-D:\github\tlantic\ScpPLuginDemo\platforms\windows8\bld\Debug\priconfig.xml.intermediate
-D:\github\tlantic\ScpPLuginDemo\platforms\windows8\bld\Debug\layout.resfiles.intermediate
-D:\github\tlantic\ScpPLuginDemo\platforms\windows8\bld\Debug\resources.resfiles.intermediate
-D:\github\tlantic\ScpPLuginDemo\platforms\windows8\bld\Debug\pri.resfiles.intermediate
 D:\github\tlantic\ScpPLuginDemo\platforms\windows8\bld\Debug\priconfig.xml
 D:\github\tlantic\ScpPLuginDemo\platforms\windows8\bld\Debug\layout.resfiles
 D:\github\tlantic\ScpPLuginDemo\platforms\windows8\bld\Debug\resources.resfiles
