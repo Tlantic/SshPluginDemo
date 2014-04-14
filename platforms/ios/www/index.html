@@ -43,7 +43,7 @@
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
             var filename = "myFileDemo.txt",
-                remote = "10.51.100.26",
+                remote = "10.51.35.219:22",
                 content = "this is the fk content, dude!",
                 localFileUrl;
 
@@ -78,7 +78,7 @@
             }
 
             function copy() {
-                window.tlantic.plugins.scp.copy('viniciusl', '123456', filename, remote, stub, stub);
+                window.tlantic.plugins.scp.copy('mrs', 'mrs', localFileUrl, remote, stub, stub);
             }
 
         </script>

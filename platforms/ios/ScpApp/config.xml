@@ -19,10 +19,6 @@
     <feature name="LocalStorage">
         <param name="ios-package" value="CDVLocalStorage" />
     </feature>
-    <feature name="File">
-        <param name="ios-package" value="CDVFile" />
-        <param name="onload" value="true" />
-    </feature>
     <name>ScpApp</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -32,6 +28,10 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <feature name="File">
+        <param name="ios-package" value="CDVFile" />
+        <param name="onload" value="true" />
+    </feature>
     <feature name="SecureCopy">
         <param name="ios-package" value="CDVScpPlugin" />
     </feature>

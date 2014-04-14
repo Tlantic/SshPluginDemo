@@ -5,9 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
-		0F95C447C61543F79C142789 /* CDVLocalFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0275382813A146AD98D4EF2A /* CDVLocalFilesystem.m */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1F766FE113BBADB100FB74C0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F766FDC13BBADB100FB74C0 /* Localizable.strings */; };
@@ -29,8 +27,6 @@
 		30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FC414816E50CA1004E6F35 /* icon-72@2x.png */; };
 		5AEE5B35173C68D80009041E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AEE5B34173C68D80009041E /* CoreLocation.framework */; };
 		5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */; };
-		5F99B2F398D64B2B9D525AFA /* CDVAssetLibraryFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC6E33F15074D1C967301CD /* CDVAssetLibraryFilesystem.m */; };
-		6590766180F2403A96B58CA0 /* CDVFile.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA88EB9D2E04D33A6C97A94 /* CDVFile.m */; };
 		7E7966DE1810823500FA85AD /* icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D41810823500FA85AD /* icon-40.png */; };
 		7E7966DF1810823500FA85AD /* icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D51810823500FA85AD /* icon-40@2x.png */; };
 		7E7966E01810823500FA85AD /* icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D61810823500FA85AD /* icon-50.png */; };
@@ -42,7 +38,13 @@
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
-		EF56A6E9F93046E0B8458F80 /* CDVScpPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = B074B387F7A54B408F92E5EA /* CDVScpPlugin.m */; };
+		E5430BAF72FC4F1EBAB17BCB /* CDVFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 762C00B3EF994DF09C2147FD /* CDVFile.m */; };
+		1FC57F1F3E3C4BE2AE9D6968 /* CDVLocalFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D015CED654549CBB69D68D5 /* CDVLocalFilesystem.m */; };
+		F1DCA77326C947B7994CC5AD /* CDVAssetLibraryFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A91EA5F6A2431492076A36 /* CDVAssetLibraryFilesystem.m */; };
+		BAF16889BCF2434A8A9B0B99 /* CDVScpPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = E049823A3D53409FAB84FE4A /* CDVScpPlugin.m */; };
+		CDB7EB63C5C64EBE807967A4 /* NMSSH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6F0F1EB170D40C1A27A709E /* NMSSH.framework */; };
+		C3A74A2C394646B0B1B5BD26 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CEE01041C384285ABCC7A75 /* libz.dylib */; };
+		620CE0B275F248F294E44EC6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C687FB246B94418AAFFF12F /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,16 +65,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0275382813A146AD98D4EF2A /* CDVLocalFilesystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVLocalFilesystem.m; path = org.apache.cordova.file/CDVLocalFilesystem.m; sourceTree = "<group>"; };
-		1CC6E33F15074D1C967301CD /* CDVAssetLibraryFilesystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVAssetLibraryFilesystem.m; path = org.apache.cordova.file/CDVAssetLibraryFilesystem.m; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* ScpApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScpApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* ScpApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ScpApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F766FDD13BBADB100FB74C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
 		1F766FE013BBADB100FB74C0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Localizable.strings; sourceTree = "<group>"; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
+		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = "CordovaLib/CordovaLib.xcodeproj"; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
 		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		302D95EF14D2391D003F00A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
@@ -103,18 +103,23 @@
 		7E7966DB1810823500FA85AD /* icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-76@2x.png"; sourceTree = "<group>"; };
 		7E7966DC1810823500FA85AD /* icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small.png"; sourceTree = "<group>"; };
 		7E7966DD1810823500FA85AD /* icon-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small@2x.png"; sourceTree = "<group>"; };
-		7FFFD2512A444019800662D9 /* CDVLocalFilesystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVLocalFilesystem.h; path = org.apache.cordova.file/CDVLocalFilesystem.h; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* ScpApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ScpApp-Info.plist"; path = "../ScpApp-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		AAA88EB9D2E04D33A6C97A94 /* CDVFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVFile.m; path = org.apache.cordova.file/CDVFile.m; sourceTree = "<group>"; };
-		B074B387F7A54B408F92E5EA /* CDVScpPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVScpPlugin.m; path = com.tlantic.plugins.scp/CDVScpPlugin.m; sourceTree = "<group>"; };
-		C8B1F0D8776D4CB7B3876169 /* CDVScpPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVScpPlugin.h; path = com.tlantic.plugins.scp/CDVScpPlugin.h; sourceTree = "<group>"; };
 		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
-		DEBC4BE42795432F91A88CD4 /* CDVFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVFile.h; path = org.apache.cordova.file/CDVFile.h; sourceTree = "<group>"; };
-		E1976E5878E049A4BF4C03A3 /* CDVAssetLibraryFilesystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVAssetLibraryFilesystem.h; path = org.apache.cordova.file/CDVAssetLibraryFilesystem.h; sourceTree = "<group>"; };
 		EB87FDF21871DA7A0020F90C /* merges */ = {isa = PBXFileReference; lastKnownFileType = folder; name = merges; path = ../../merges; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
-		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ScpApp/config.xml; sourceTree = "<group>"; };
+		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "ScpApp/config.xml"; sourceTree = "<group>"; };
+		762C00B3EF994DF09C2147FD /* CDVFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVFile.m"; path = "org.apache.cordova.file/CDVFile.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		2D015CED654549CBB69D68D5 /* CDVLocalFilesystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVLocalFilesystem.m"; path = "org.apache.cordova.file/CDVLocalFilesystem.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		10A91EA5F6A2431492076A36 /* CDVAssetLibraryFilesystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVAssetLibraryFilesystem.m"; path = "org.apache.cordova.file/CDVAssetLibraryFilesystem.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		A1B01965B15348D187D62CED /* CDVFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVFile.h"; path = "org.apache.cordova.file/CDVFile.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		EE0CD20112DF412FAC469286 /* CDVLocalFilesystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVLocalFilesystem.h"; path = "org.apache.cordova.file/CDVLocalFilesystem.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		678F0F479A3C441E934B9288 /* CDVAssetLibraryFilesystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVAssetLibraryFilesystem.h"; path = "org.apache.cordova.file/CDVAssetLibraryFilesystem.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		E049823A3D53409FAB84FE4A /* CDVScpPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVScpPlugin.m"; path = "com.tlantic.plugins.scp/CDVScpPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		D31CE3F57BEC429DA51817DA /* CDVScpPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVScpPlugin.h"; path = "com.tlantic.plugins.scp/CDVScpPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		B6F0F1EB170D40C1A27A709E /* NMSSH.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "NMSSH.framework"; path = "ScpApp/Plugins/com.tlantic.plugins.scp/NMSSH.framework"; sourceTree = "<group>"; };
+		2CEE01041C384285ABCC7A75 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libz.dylib"; path = "usr/lib/libz.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
+		7C687FB246B94418AAFFF12F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CFNetwork.framework"; path = "System/Library/Frameworks/CFNetwork.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +132,9 @@
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
 				5AEE5B35173C68D80009041E /* CoreLocation.framework in Frameworks */,
+				CDB7EB63C5C64EBE807967A4 /* NMSSH.framework in Frameworks */,
+				C3A74A2C394646B0B1B5BD26 /* libz.dylib in Frameworks */,
+				620CE0B275F248F294E44EC6 /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +151,7 @@
 				1D3623250D0F684500981E51 /* AppDelegate.m */,
 			);
 			name = Classes;
-			path = ScpApp/Classes;
+			path = "ScpApp/Classes";
 			sourceTree = SOURCE_ROOT;
 		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
@@ -195,7 +203,7 @@
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
-			path = ScpApp;
+			path = "ScpApp";
 			sourceTree = "<group>";
 		};
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
@@ -210,7 +218,7 @@
 				8D1107310486CEB800E47090 /* ScpApp-Info.plist */,
 			);
 			name = Resources;
-			path = ScpApp/Resources;
+			path = "ScpApp/Resources";
 			sourceTree = "<group>";
 		};
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
@@ -220,6 +228,9 @@
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
+				B6F0F1EB170D40C1A27A709E /* NMSSH.framework */,
+				2CEE01041C384285ABCC7A75 /* libz.dylib */,
+				7C687FB246B94418AAFFF12F /* CFNetwork.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -235,17 +246,17 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				AAA88EB9D2E04D33A6C97A94 /* CDVFile.m */,
-				0275382813A146AD98D4EF2A /* CDVLocalFilesystem.m */,
-				1CC6E33F15074D1C967301CD /* CDVAssetLibraryFilesystem.m */,
-				DEBC4BE42795432F91A88CD4 /* CDVFile.h */,
-				7FFFD2512A444019800662D9 /* CDVLocalFilesystem.h */,
-				E1976E5878E049A4BF4C03A3 /* CDVAssetLibraryFilesystem.h */,
-				B074B387F7A54B408F92E5EA /* CDVScpPlugin.m */,
-				C8B1F0D8776D4CB7B3876169 /* CDVScpPlugin.h */,
+				762C00B3EF994DF09C2147FD /* CDVFile.m */,
+				2D015CED654549CBB69D68D5 /* CDVLocalFilesystem.m */,
+				10A91EA5F6A2431492076A36 /* CDVAssetLibraryFilesystem.m */,
+				A1B01965B15348D187D62CED /* CDVFile.h */,
+				EE0CD20112DF412FAC469286 /* CDVLocalFilesystem.h */,
+				678F0F479A3C441E934B9288 /* CDVAssetLibraryFilesystem.h */,
+				E049823A3D53409FAB84FE4A /* CDVScpPlugin.m */,
+				D31CE3F57BEC429DA51817DA /* CDVScpPlugin.h */,
 			);
 			name = Plugins;
-			path = ScpApp/Plugins;
+			path = "ScpApp/Plugins";
 			sourceTree = SOURCE_ROOT;
 		};
 		308D052D1370CCF300D202BF /* icons */ = {
@@ -325,8 +336,8 @@
 			dependencies = (
 				301BF551109A68C00062928A /* PBXTargetDependency */,
 			);
-			name = ScpApp;
-			productName = ScpApp;
+			name = "ScpApp";
+			productName = "ScpApp";
 			productReference = 1D6058910D05DD3D006BFB54 /* ScpApp.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -338,7 +349,7 @@
 			attributes = {
 				LastUpgradeCheck = 500;
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ScpApp" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__CLI__" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -437,10 +448,10 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				6590766180F2403A96B58CA0 /* CDVFile.m in Sources */,
-				0F95C447C61543F79C142789 /* CDVLocalFilesystem.m in Sources */,
-				5F99B2F398D64B2B9D525AFA /* CDVAssetLibraryFilesystem.m in Sources */,
-				EF56A6E9F93046E0B8458F80 /* CDVScpPlugin.m in Sources */,
+				E5430BAF72FC4F1EBAB17BCB /* CDVFile.m in Sources */,
+				1FC57F1F3E3C4BE2AE9D6968 /* CDVLocalFilesystem.m in Sources */,
+				F1DCA77326C947B7994CC5AD /* CDVAssetLibraryFilesystem.m in Sources */,
+				BAF16889BCF2434A8A9B0B99 /* CDVScpPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,8 +529,12 @@
 					"\"$(BUILT_PRODUCTS_DIR)/libCordova.a\"",
 					"-ObjC",
 				);
-				PRODUCT_NAME = ScpApp;
+				PRODUCT_NAME = "ScpApp";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"ScpApp/Plugins/com.tlantic.plugins.scp\"",
+				);
 			};
 			name = Debug;
 		};
@@ -549,8 +564,12 @@
 					"\"$(BUILT_PRODUCTS_DIR)/libCordova.a\"",
 					"-ObjC",
 				);
-				PRODUCT_NAME = ScpApp;
+				PRODUCT_NAME = "ScpApp";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"ScpApp/Plugins/com.tlantic.plugins.scp\"",
+				);
 			};
 			name = Release;
 		};
@@ -657,7 +676,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ScpApp" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__CLI__" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,

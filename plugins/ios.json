@@ -10,6 +10,12 @@
             },
             "MobileCoreServices.framework": {
                 "false": 1
+            },
+            "libz.dylib": {
+                "false": 1
+            },
+            "CFNetwork.framework": {
+                "false": 1
             }
         },
         "config.xml": {
