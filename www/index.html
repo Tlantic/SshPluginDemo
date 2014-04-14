@@ -33,11 +33,54 @@
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>
             </div>
+            <div>
+            	<br>
+            	<button onclick="create()">Create File</button><br><br><br />
+            	<button onclick="copy()">Do secure copy</button><br><br><br />
+            </div>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
+            var filename = "myFileDemo.txt",
+                remote = "10.51.100.26",
+                content = "this is the fk content, dude!",
+                localFileUrl;
+
             app.initialize();
+
+            function stub(d) {
+                console.log(d);
+            }
+
+            function gotFileWriter(writer) {
+                writer.onwriteend = function () {
+                    console.log('File Generated');
+                };
+
+                writer.onerror = stub;
+
+                writer.write(content);
+                
+                localFileUrl = writer.localURL;
+            }
+
+            function gotFileEntry(fileEntry) {
+                fileEntry.createWriter(gotFileWriter, stub);
+            }
+
+            function gotFS(fileSystem) {
+                fileSystem.root.getFile(filename, { create: true }, gotFileEntry, stub);
+            }
+
+            function create() {
+                window.requestFileSystem(LocalFileSystem.TEMPORARY, 0, gotFS, stub);
+            }
+
+            function copy() {
+                window.tlantic.plugins.scp.copy('viniciusl', '123456', filename, remote, stub, stub);
+            }
+
         </script>
     </body>
 </html>

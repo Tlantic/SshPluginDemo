@@ -16,7 +16,7 @@
     <AppXManifest Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-04-09T13:57:07.529</Modified>
+      <Modified>2014-04-14T11:28:06.592</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -58,11 +58,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\www\plugins\com.tlantic.plugins.scp\src\windows8\ScpProxy.js">
       <PackagePath>www\plugins\com.tlantic.plugins.scp\src\windows8\ScpProxy.js</PackagePath>
-      <Modified>2014-04-09T13:40:02.235</Modified>
+      <Modified>2014-04-14T11:31:31.455</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\www\plugins\com.tlantic.plugins.scp\www\scp.js">
       <PackagePath>www\plugins\com.tlantic.plugins.scp\www\scp.js</PackagePath>
-      <Modified>2014-04-09T13:40:02.236</Modified>
+      <Modified>2014-04-14T11:25:41.166</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\www\plugins\org.apache.cordova.file\src\windows8\FileProxy.js">
       <PackagePath>www\plugins\org.apache.cordova.file\src\windows8\FileProxy.js</PackagePath>
@@ -142,11 +142,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\www\index.html">
       <PackagePath>www\index.html</PackagePath>
-      <Modified>2014-04-09T14:01:16.936</Modified>
+      <Modified>2014-04-14T11:28:41.388</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\github\tlantic\ScpPluginDemo\platforms\windows8\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-04-09T13:57:07.392</Modified>
+      <Modified>2014-04-14T11:28:06.392</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
