@@ -41,10 +41,10 @@
 		E5430BAF72FC4F1EBAB17BCB /* CDVFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 762C00B3EF994DF09C2147FD /* CDVFile.m */; };
 		1FC57F1F3E3C4BE2AE9D6968 /* CDVLocalFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D015CED654549CBB69D68D5 /* CDVLocalFilesystem.m */; };
 		F1DCA77326C947B7994CC5AD /* CDVAssetLibraryFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A91EA5F6A2431492076A36 /* CDVAssetLibraryFilesystem.m */; };
-		BAF16889BCF2434A8A9B0B99 /* CDVScpPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = E049823A3D53409FAB84FE4A /* CDVScpPlugin.m */; };
-		CDB7EB63C5C64EBE807967A4 /* NMSSH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6F0F1EB170D40C1A27A709E /* NMSSH.framework */; };
-		C3A74A2C394646B0B1B5BD26 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CEE01041C384285ABCC7A75 /* libz.dylib */; };
-		620CE0B275F248F294E44EC6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C687FB246B94418AAFFF12F /* CFNetwork.framework */; };
+		638731CD0E274D9A9E5AECAD /* CDVScpPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5F1A09EDCF41D1A64F3E72 /* CDVScpPlugin.m */; };
+		A687DB0C81114249846D3EB1 /* NMSSH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8992A5AD4764A93889A984C /* NMSSH.framework */; };
+		EEEF5349B3E74738B1C299DD /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E53CB3DC88F432A994085BD /* libz.dylib */; };
+		73CCEB85C48A4AA1BF43C426 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311F8D1CF1E340F791612E11 /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,11 +115,11 @@
 		A1B01965B15348D187D62CED /* CDVFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVFile.h"; path = "org.apache.cordova.file/CDVFile.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		EE0CD20112DF412FAC469286 /* CDVLocalFilesystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVLocalFilesystem.h"; path = "org.apache.cordova.file/CDVLocalFilesystem.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		678F0F479A3C441E934B9288 /* CDVAssetLibraryFilesystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVAssetLibraryFilesystem.h"; path = "org.apache.cordova.file/CDVAssetLibraryFilesystem.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		E049823A3D53409FAB84FE4A /* CDVScpPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVScpPlugin.m"; path = "com.tlantic.plugins.scp/CDVScpPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		D31CE3F57BEC429DA51817DA /* CDVScpPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVScpPlugin.h"; path = "com.tlantic.plugins.scp/CDVScpPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		B6F0F1EB170D40C1A27A709E /* NMSSH.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "NMSSH.framework"; path = "ScpApp/Plugins/com.tlantic.plugins.scp/NMSSH.framework"; sourceTree = "<group>"; };
-		2CEE01041C384285ABCC7A75 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libz.dylib"; path = "usr/lib/libz.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
-		7C687FB246B94418AAFFF12F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CFNetwork.framework"; path = "System/Library/Frameworks/CFNetwork.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		CD5F1A09EDCF41D1A64F3E72 /* CDVScpPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVScpPlugin.m"; path = "com.tlantic.plugins.scp/CDVScpPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		BB67C720A79B4D918C8C5C95 /* CDVScpPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVScpPlugin.h"; path = "com.tlantic.plugins.scp/CDVScpPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		A8992A5AD4764A93889A984C /* NMSSH.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "NMSSH.framework"; path = "ScpApp/Plugins/com.tlantic.plugins.scp/NMSSH.framework"; sourceTree = "<group>"; };
+		2E53CB3DC88F432A994085BD /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libz.dylib"; path = "usr/lib/libz.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
+		311F8D1CF1E340F791612E11 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CFNetwork.framework"; path = "System/Library/Frameworks/CFNetwork.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,9 +132,9 @@
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
 				5AEE5B35173C68D80009041E /* CoreLocation.framework in Frameworks */,
-				CDB7EB63C5C64EBE807967A4 /* NMSSH.framework in Frameworks */,
-				C3A74A2C394646B0B1B5BD26 /* libz.dylib in Frameworks */,
-				620CE0B275F248F294E44EC6 /* CFNetwork.framework in Frameworks */,
+				A687DB0C81114249846D3EB1 /* NMSSH.framework in Frameworks */,
+				EEEF5349B3E74738B1C299DD /* libz.dylib in Frameworks */,
+				73CCEB85C48A4AA1BF43C426 /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,9 +228,9 @@
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
-				B6F0F1EB170D40C1A27A709E /* NMSSH.framework */,
-				2CEE01041C384285ABCC7A75 /* libz.dylib */,
-				7C687FB246B94418AAFFF12F /* CFNetwork.framework */,
+				A8992A5AD4764A93889A984C /* NMSSH.framework */,
+				2E53CB3DC88F432A994085BD /* libz.dylib */,
+				311F8D1CF1E340F791612E11 /* CFNetwork.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -252,8 +252,8 @@
 				A1B01965B15348D187D62CED /* CDVFile.h */,
 				EE0CD20112DF412FAC469286 /* CDVLocalFilesystem.h */,
 				678F0F479A3C441E934B9288 /* CDVAssetLibraryFilesystem.h */,
-				E049823A3D53409FAB84FE4A /* CDVScpPlugin.m */,
-				D31CE3F57BEC429DA51817DA /* CDVScpPlugin.h */,
+				CD5F1A09EDCF41D1A64F3E72 /* CDVScpPlugin.m */,
+				BB67C720A79B4D918C8C5C95 /* CDVScpPlugin.h */,
 			);
 			name = Plugins;
 			path = "ScpApp/Plugins";
@@ -451,7 +451,7 @@
 				E5430BAF72FC4F1EBAB17BCB /* CDVFile.m in Sources */,
 				1FC57F1F3E3C4BE2AE9D6968 /* CDVLocalFilesystem.m in Sources */,
 				F1DCA77326C947B7994CC5AD /* CDVAssetLibraryFilesystem.m in Sources */,
-				BAF16889BCF2434A8A9B0B99 /* CDVScpPlugin.m in Sources */,
+				638731CD0E274D9A9E5AECAD /* CDVScpPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,6 +534,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"ScpApp/Plugins/com.tlantic.plugins.scp\"",
+					"\"ScpApp/Plugins/com.tlantic.plugins.scp\"",
 				);
 			};
 			name = Debug;
@@ -568,6 +569,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"ScpApp/Plugins/com.tlantic.plugins.scp\"",
 					"\"ScpApp/Plugins/com.tlantic.plugins.scp\"",
 				);
 			};
