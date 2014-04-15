@@ -61,8 +61,6 @@
                 writer.onerror = stub;
 
                 writer.write(content);
-                
-                localFileUrl = writer.localURL;
             }
 
             function gotFileEntry(fileEntry) {
@@ -74,11 +72,11 @@
             }
 
             function create() {
-                window.requestFileSystem(LocalFileSystem.TEMPORARY, 0, gotFS, stub);
+                window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, gotFS, stub);
             }
 
             function copy() {
-                window.tlantic.plugins.scp.copy('mrs', 'mrs', localFileUrl, remote, stub, stub);
+                window.tlantic.plugins.scp.copy('mrs', 'mrs', filename, remote, stub, stub);
             }
 
         </script>
