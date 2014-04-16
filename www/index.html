@@ -36,14 +36,15 @@
             <div>
                 <br>
                 <button onclick="create()">Create File</button><br><br><br />
-                <button onclick="copy()">Do secure copy</button><br><br><br />
+                <button onclick="connect()">Connect to host</button><br><br><br />
             </div>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
-            var filename = "myFileDemo.txt",
-                remote = "10.51.35.219:22",
+            var filename = "youWillNeverKnow.tmp",
+                host = "10.51.35.219",
+                port = 22,
                 content = "this is the fk content, dude!",
                 localFileUrl;
 
@@ -75,8 +76,8 @@
                 window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, gotFS, stub);
             }
 
-            function copy() {
-                window.tlantic.plugins.scp.copy('mrs', 'mrs', filename, remote, stub, stub);
+            function connect() {
+                window.tlantic.plugins.ssh.connect(host, port, 'mrs', stub, stub);
             }
 
         </script>

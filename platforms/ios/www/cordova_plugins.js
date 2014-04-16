@@ -135,12 +135,20 @@ module.exports = [
         "merges": [
             "window.FileSystem"
         ]
+    },
+    {
+        "file": "plugins/com.tlantic.plugins.ssh/www/ssh.js",
+        "id": "com.tlantic.plugins.ssh.SSH",
+        "clobbers": [
+            "window.tlantic.plugins.ssh"
+        ]
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "org.apache.cordova.file": "1.0.1"
+    "org.apache.cordova.file": "1.0.1",
+    "com.tlantic.plugins.ssh": "0.1.0"
 }
 // BOTTOM OF METADATA
 });

@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>63867E6E-02A2-4850-8E85-170948DDABDD</string>
+	<string>9D21FEB2-545D-40B4-9324-3DB5069F265F</string>
 	<key>IDESourceControlProjectName</key>
 	<string>ScpApp</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>9404B24E-EDDD-46D2-9800-5000D1D3C125</key>
-		<string>https://github.com/tlantic/ScpPluginDemo</string>
+		<key>911ADC21-9198-4DAC-B9E9-B26900752585</key>
+		<string>https://github.com/tlantic/SshPluginDemo</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>platforms/ios/ScpApp.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>9404B24E-EDDD-46D2-9800-5000D1D3C125</key>
+		<key>911ADC21-9198-4DAC-B9E9-B26900752585</key>
 		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/tlantic/ScpPluginDemo</string>
+	<string>https://github.com/tlantic/SshPluginDemo</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>9404B24E-EDDD-46D2-9800-5000D1D3C125</string>
+	<string>911ADC21-9198-4DAC-B9E9-B26900752585</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>9404B24E-EDDD-46D2-9800-5000D1D3C125</string>
+			<string>911ADC21-9198-4DAC-B9E9-B26900752585</string>
 			<key>IDESourceControlWCCName</key>
-			<string>ScpPluginDemo</string>
+			<string>SshPluginDemo</string>
 		</dict>
 	</array>
 </dict>
