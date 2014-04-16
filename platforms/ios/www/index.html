@@ -35,23 +35,33 @@
             </div>
             <div>
                 <br>
-                <button onclick="create()">Create File</button><br><br><br />
-                <button onclick="connect()">Connect to host</button><br><br><br />
+                <button onclick="create()">Create File</button><br><br>
+                <button onclick="connect()">Connect to host</button><br><br>
+                <button onclick="authByKeyboard()">Authenticate - Keyboard</button><br><br>
+                <button onclick="copy()">CopyToRemote</button><br><br>
+                <button onclick="disconnect()">Disconnect from host</button><br><br>
+                <button onclick="disconnectAll()">Disconnect All</button><br><br>
             </div>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
-            var filename = "youWillNeverKnow.tmp",
-                host = "10.51.35.219",
+            var host = "10.51.35.219",
                 port = 22,
-                content = "this is the fk content, dude!",
-                localFileUrl;
+                key,
+                filename = "youWillNeverKnow.tmp",
+                remotePath = "/tlanBiS/loadinfo/our_output/mrs/",
+                content = "this is the fk content, dude!";
 
             app.initialize();
 
             function stub(d) {
                 console.log(d);
+            }
+        
+            function onConnect(k) {
+                console.log(k);
+                key = k;
             }
 
             function gotFileWriter(writer) {
@@ -73,11 +83,27 @@
             }
 
             function create() {
-                window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, gotFS, stub);
+                window.requestFileSystem(LocalFileSystem.TEMPORARY, 0, gotFS, stub);
             }
 
             function connect() {
-                window.tlantic.plugins.ssh.connect(host, port, 'mrs', stub, stub);
+                window.tlantic.plugins.ssh.connect(host, port, 'mrs', onConnect, stub);
+            }
+        
+            function authByKeyboard() {
+                window.tlantic.plugins.ssh.authenticateByKeyboard(key, 'mrs', stub, stub);
+            }
+        
+            function disconnect() {
+                window.tlantic.plugins.ssh.disconnect(key, stub, stub);
+            }
+        
+            function disconnectAll() {
+                window.tlantic.plugins.ssh.disconnectAll(stub, stub);
+            }
+        
+            function copy () {
+                window.tlantic.plugins.ssh.copyToRemote(key, filename, remotePath, stub, stub);
             }
 
         </script>
