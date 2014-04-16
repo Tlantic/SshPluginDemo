@@ -1,14 +1,17 @@
 #import <Cordova/CDV.h>
-#import <NMSSH/NMSSH.h>
+#import "SSHChannel.h"
 
-@interface CDVScpPlugin : CDVPlugin <NMSSHSessionDelegate> {
-    NSString* shhpwd;
+@interface CDVSSHPlugin : CDVPlugin <SshChannelDelegate> {
+    NSMutableDictionary *pool;
 }
 
--(void) copyToRemote: (CDVInvokedUrlCommand *) command;
+-(void) connect: (CDVInvokedUrlCommand *) command;
+-(void) disconnect: (CDVInvokedUrlCommand *) command;
+-(void) disconnectAll: (CDVInvokedUrlCommand *) command;
+-(BOOL) disposeChannel :(NSString *)key;
 
-- (void)session:(NMSSHSession *)session didDisconnectWithError:(NSError *)error;
-- (NSString *)session:(NMSSHSession *)session keyboardInteractiveRequest:(NSString *)request;
-- (BOOL)session:(NMSSHSession *)session shouldConnectToHostWithFingerprint:(NSString *)fingerprint;
+-(void) authenticateByKeyboard: (CDVInvokedUrlCommand *) command;
+
+-(void) scp: (CDVInvokedUrlCommand *) command;
 
 @end
