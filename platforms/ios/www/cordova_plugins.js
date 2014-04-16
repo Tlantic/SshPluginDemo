@@ -135,20 +135,12 @@ module.exports = [
         "merges": [
             "window.FileSystem"
         ]
-    },
-    {
-        "file": "plugins/com.tlantic.plugins.scp/www/scp.js",
-        "id": "com.tlantic.plugins.scp.SecureCopy",
-        "clobbers": [
-            "window.tlantic.plugins.scp"
-        ]
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "org.apache.cordova.file": "1.0.1",
-    "com.tlantic.plugins.scp": "0.1.0"
+    "org.apache.cordova.file": "1.0.1"
 }
 // BOTTOM OF METADATA
 });
